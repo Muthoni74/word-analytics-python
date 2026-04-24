@@ -17,3 +17,4 @@ def analyze_text(text):
         'repeated_words': sorted(repeated_words),
         'palindromes': sorted(palindromes)
     }
+print(analyze_text("Madam, in Eden, I'm Adam. Hello world! Hello everyone."))
